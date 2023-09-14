@@ -284,8 +284,10 @@
     }
 
     .page__home-social-list li svg {
-        min-width: 22px;
-        min-height: 22px;
+        min-height: auto;
+        min-width: auto;
+        max-width: 22px;
+        max-height: 22px;
     }
 
 }
