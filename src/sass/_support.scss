@@ -39,22 +39,17 @@
 	}
 }
 
+// Переменнные | _support
+$fontSize: 18;
+
 // Перевод из px в rem
 @function rem($size) {
 	@return calc($size / $fontSize) + rem;
 }
 
-// Перевод из px в vw
-@function vw($size) {
-	@return calc($size / $vw) + vw;
-}
-
-// Переменнные | _support
-$fontSize: 16;
-$vw: 1920;
-
 // Переменные | Глобальные
 $color1: #ff0000;
+$blue: #00A6EE;
 
 
 // Fonts

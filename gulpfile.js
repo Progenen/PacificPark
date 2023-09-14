@@ -145,7 +145,7 @@ function svgsprite() {
                 }
             },
         }))
-        .pipe(dest(dir + '/svg/dest/'))
+        .pipe(dest(dir + '/svg/'))
 }
 
 // Удаление картинок в выходной папке, если те удалены в входящей | Deleting pictures in the output folder, if they were deleted in the input

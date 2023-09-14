@@ -1,0 +1,104 @@
+.footer {
+    background: linear-gradient(270deg, #FEECEA 1.47%, #E8F2FC 100%);
+    padding: 0 0 53px;
+
+    &__container {
+        max-width: 978px;
+        padding: 0 15px;
+    }
+
+    &__top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 23px 0 24px;
+        border-bottom: 1px solid #979697;
+    }
+
+    &__logo {
+        max-width: 67px;
+        width: 100%;
+        display: block;
+        margin-right: 5.5%;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__bottom {
+        padding-top: 45px;
+        justify-content: space-between;
+    }
+
+    &__col {
+
+        &--menu {
+            max-width: 335px;
+            width: 100%;
+        }
+
+        &--copyright {
+            max-width: 279px;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+    }
+
+    &__menu {
+
+        &--r {
+            text-align: right;
+        }
+    }
+
+    &__menu-title {
+        margin-top: 2px;
+        font-family: Segoe UI;
+        font-size: rem(20);
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    &__menu-list {
+        list-style: none;
+        padding: 0;
+        margin: 15px 0 0 0;
+    }
+
+    &__menu-item {
+        margin-top: 10px;
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    &__menu-link {
+        color: #000;
+        font-family: Segoe UI;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 350;
+        line-height: normal;
+        padding: 8px 0 7px;
+        text-decoration: none;
+        margin-top: auto;
+        &:hover {
+            color: $blue;
+        }
+    }
+
+    &__copyright {
+        color: #979697;
+        text-align: center;
+        font-family: Segoe UI;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 350;
+        line-height: normal;
+    }
+}
